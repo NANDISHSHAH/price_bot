@@ -13,7 +13,7 @@ def check_price():
         send_mail()
     print(converted_price)
     print(title.strip())
-    if(converted_price>100):
+    if(converted_price>100):# here the 100 is randoom you can choose your own.
         send_mail()
 def send_mail():
     server =smtplib.SMTP('smtp.gmail.com',587)
